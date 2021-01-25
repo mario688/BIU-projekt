@@ -2,7 +2,7 @@ import React from "react"
 import NaviBar from "./NaviBar";
 import Footer from "./Footer";
 import Body from "./Body";
-
+import ChooseQuiz from "./ChooseQuiz";
 
 
 
@@ -18,6 +18,7 @@ export default function Home() {
                 <p>Sprawdź swoją wiedzę w różnych dziedzinach</p>
               
             </div>
+            <ChooseQuiz/>
         </div>
         <Body/>
         <NaviBar/>

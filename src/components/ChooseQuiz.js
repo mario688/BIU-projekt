@@ -1,13 +1,17 @@
-import React, {useState } from 'react';
+import React, {useEffect, useState } from 'react';
 
 import QuizApp from "./QuizApp"
 import quizdata from './QuizData'
+
 export default function ChooseQuiz() {
 
 
     const [buttonChat,SetbuttonChat] = useState(false);
     const [buttonChat2,SetbuttonChat2] = useState(false);
     const [buttonChat3,SetbuttonChat3] = useState(false);
+   
+    
+   
     return (
         <>  
             <div id="quiz">

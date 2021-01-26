@@ -12,12 +12,12 @@ const quizdata=[
               ],
           },
           {
-              questionText: 'Who is CEO of Tesla?',
+              questionText: 'Pytanie wielokrotnego wyboru',
               answerOptions: [
                   { answerText: 'Jeff Bezos', isCorrect: false },
                   { answerText: 'Elon Musk', isCorrect: true },
                   { answerText: 'Bill Gates', isCorrect: false },
-                  { answerText: 'Tony Stark', isCorrect: false },
+                  { answerText: 'Tony Stark', isCorrect: true },
               ],
           },
          ]
